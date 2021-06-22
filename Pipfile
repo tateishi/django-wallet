@@ -12,5 +12,5 @@ django = "*"
 python_version = "3.8"
 
 [scripts]
-server = "python wallet/manage.py runserver 0:8000"
-secretkey = "python tools/generate_local_secretkey.py wallet/wallet/local_settings.py"
+server = "python manage.py runserver 0:8000"
+secretkey = "python tools/generate_local_secretkey.py"
