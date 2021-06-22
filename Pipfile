@@ -14,3 +14,4 @@ python_version = "3.8"
 [scripts]
 server = "python manage.py runserver 0:8000"
 secretkey = "python tools/generate_local_secretkey.py"
+shell = "python manage.py shell"
